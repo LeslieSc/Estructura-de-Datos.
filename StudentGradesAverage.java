@@ -1,3 +1,9 @@
+ /**
+ * Autor: Leslie Anahi Sosa Corral
+ * Matrícula: 15248
+ * Fecha: 04-Feb-2025
+ */
+ 
  public class StudentGradesAverage {
     public void GetGradeAverage() {
         int[] StudentGradesArray = {50,70,100};
