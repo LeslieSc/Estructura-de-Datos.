@@ -33,7 +33,7 @@ public class EstructuraDeDatos {
         int finalGradeResult = objStudentGrades.calculateFinalGrade(80, 75, 90, 85);
         System.out.println("La calificacion final es: " + finalGradeResult);
 
-        String absencesResult = objStudentGrades.checkFailureByAbsences(64, 50);
+        String absencesResult = objStudentGrades.checkFailureByAbsences(64, 7);
         System.out.println(absencesResult);
 
     }
