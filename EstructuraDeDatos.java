@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Autor: Leslie Anahi Sosa Corral
  * Matrícula: 15248
@@ -26,15 +28,29 @@ public class EstructuraDeDatos {
         // String fullName = objUserData.fullName("Leslie","Sosa");
         // System.out.println(fullName);
 
-        StudentGrades objStudentGrades = new StudentGrades();
-        int partialGradeResult = objStudentGrades.calculateFirstPartialGrade(85, 90);
-        System.out.println("La calificacion parcial es: " + partialGradeResult);
+        // StudentGrades objStudentGrades = new StudentGrades();
+        // int partialGradeResult = objStudentGrades.calculateFirstPartialGrade(85, 90);
+        // System.out.println("La calificacion parcial es: " + partialGradeResult);
 
-        int finalGradeResult = objStudentGrades.calculateFinalGrade(80, 75, 90, 85);
-        System.out.println("La calificacion final es: " + finalGradeResult);
+        // int finalGradeResult = objStudentGrades.calculateFinalGrade(80, 75, 90, 85);
+        // System.out.println("La calificacion final es: " + finalGradeResult);
 
-        String absencesResult = objStudentGrades.checkFailureByAbsences(64, 7);
-        System.out.println(absencesResult);
+        // String absencesResult = objStudentGrades.checkFailureByAbsences(64, 7);
+        // System.out.println(absencesResult);
+
+        // Uso de scanner
+        Scanner objScanner = new Scanner(System.in);
+
+        System.out.print("Ingresa la base del triangulo: ");
+        double base = objScanner.nextDouble();
+
+        System.out.print("Ingresa la altura del triangulo: ");
+        double height = objScanner.nextDouble();
+
+        TriangleArea objTriangle = new TriangleArea();
+        double area = objTriangle.calculateArea(base, height);
+
+        System.out.println(String.format("El area del triangulo con base %.2f y altura %.2f es: %.2f", base, height, area));
 
     }
 }

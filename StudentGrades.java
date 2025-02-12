@@ -6,21 +6,22 @@
 
 /**
  * Se define la clase StudentGrades
- * Metodo calculateFirstPartialGrade: 
- * recibe dos parametros enteros 
- * se calcula la calificacion final 
- * se convierte el resultado a un entero 
+ * Metodo calculateFirstPartialGrade:
+ * recibe dos parametros enteros
+ * se calcula la calificacion final
+ * se convierte el resultado a un entero
  * retorna la calificacion como un entero
- * Metodo calculateFinalGrade: 
+ * Metodo calculateFinalGrade:
  * Recibe cuatro calificaciones enteras
- * se obtiene la calificacion final 
- * se convierte el resultado a entero 
+ * se obtiene la calificacion final
+ * se convierte el resultado a entero
  * se retorna la calificacion final como entero.
- * Metodo checkFailureByAbsences: 
- * Recibe dos enteros 
- * se calcula el porcentaje de faltas (se usa double para asegurar que la division sea decimal y evitar errores de precision)
+ * Metodo checkFailureByAbsences:
+ * Recibe dos enteros
+ * se calcula el porcentaje de faltas (se usa double para asegurar que la
+ * division sea decimal y evitar errores de precision)
  * Si el porcentaje de faltas es menor al 10% retorna un mensaje negativo
- * Si el porcentaje es 10% o mas retorna un mensaje positivo 
+ * Si el porcentaje es 10% o mas retorna un mensaje positivo
  */
 
 public class StudentGrades {
