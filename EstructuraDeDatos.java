@@ -52,15 +52,22 @@ public class EstructuraDeDatos {
 
         //System.out.println(String.format("El area del triangulo con base %.2f y altura %.2f es: %.2f", base, height, area));
 
-        Scanner objScannerCircle = new Scanner(System.in);
+        //Scanner objScannerCircle = new Scanner(System.in);
 
-        System.out.print("Ingresa la radio del circulo: ");
-        double radius = objScannerCircle.nextDouble();
+        //System.out.print("Ingresa la radio del circulo: ");
+        //double radius = objScannerCircle.nextDouble();
 
-        CircleArea objCircle = new CircleArea();
-        double areaCircle = objCircle.calculateCircleArea(radius);
-        System.out.println(String.format("El area del Circulo con radio: %.2f es: %.2f", radius,areaCircle));
+        //CircleArea objCircle = new CircleArea();
+        //double areaCircle = objCircle.calculateCircleArea(radius);
+        //System.out.println(String.format("El area del Circulo con radio: %.2f es: %.2f", radius,areaCircle));
 
-        objScannerCircle.close();
+        //objScannerCircle.close();
+
+        ArrayListExample objArrayList = new ArrayListExample();
+        objArrayList.addCars("Mazda");
+        objArrayList.addCars("Subaru");
+        System.out.println(objArrayList.returnSize());
+        objArrayList.removeCar(0);
+        System.out.println(objArrayList.returnSize());
     }
 }
