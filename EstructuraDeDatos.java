@@ -39,18 +39,26 @@ public class EstructuraDeDatos {
         // System.out.println(absencesResult);
 
         // Uso de scanner
-        Scanner objScanner = new Scanner(System.in);
+        //Scanner objScanner = new Scanner(System.in);
 
-        System.out.print("Ingresa la base del triangulo: ");
-        double base = objScanner.nextDouble();
+        //System.out.print("Ingresa la base del triangulo: ");
+        //double base = objScanner.nextDouble();
 
-        System.out.print("Ingresa la altura del triangulo: ");
-        double height = objScanner.nextDouble();
+        //System.out.print("Ingresa la altura del triangulo: ");
+        //double height = objScanner.nextDouble();
 
-        TriangleArea objTriangle = new TriangleArea();
-        double area = objTriangle.calculateArea(base, height);
+        //TriangleArea objTriangle = new TriangleArea();
+        //double area = objTriangle.calculateArea(base, height);
 
-        System.out.println(String.format("El area del triangulo con base %.2f y altura %.2f es: %.2f", base, height, area));
+        //System.out.println(String.format("El area del triangulo con base %.2f y altura %.2f es: %.2f", base, height, area));
 
+        Scanner objScannerCircle = new Scanner(System.in);
+
+        System.out.print("Ingresa la radio del circulo: ");
+        double radius = objScannerCircle.nextDouble();
+
+        CircleArea objCircle = new CircleArea();
+        double areaCircle = objCircle.calculateCircleArea(radius);
+        System.out.println(String.format("El area del Circulo con radio: %.2f es: %.2f", radius,areaCircle));
     }
 }
