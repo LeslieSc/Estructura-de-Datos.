@@ -60,5 +60,7 @@ public class EstructuraDeDatos {
         CircleArea objCircle = new CircleArea();
         double areaCircle = objCircle.calculateCircleArea(radius);
         System.out.println(String.format("El area del Circulo con radio: %.2f es: %.2f", radius,areaCircle));
+
+        objScannerCircle.close();
     }
 }
