@@ -64,11 +64,14 @@ public class EstructuraDeDatos {
 
         //objScannerCircle.close();
 
-        ArrayListExample objArrayList = new ArrayListExample();
-        objArrayList.addCars("Mazda");
-        objArrayList.addCars("Subaru");
-        System.out.println(objArrayList.returnSize());
-        objArrayList.removeCar(0);
-        System.out.println(objArrayList.returnSize());
+        //ArrayListExample objArrayList = new ArrayListExample();
+        //objArrayList.addCars("Mazda");
+        //objArrayList.addCars("Subaru");
+        //System.out.println(objArrayList.returnSize());
+        //objArrayList.removeCar(0);
+        //System.out.println(objArrayList.returnSize());
+
+        MultidimentionalArrays objMultidimentionalArray = new MultidimentionalArrays();
+        objMultidimentionalArray.printBidimensionalArray();
     }
 }
