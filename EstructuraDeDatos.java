@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Fecha: 04-Feb-2025
  */
 
+@SuppressWarnings("unused")
 public class EstructuraDeDatos {
     public static void main(String[] args) {
         // RandomElementGame objRandomElementGame = new RandomElementGame();
