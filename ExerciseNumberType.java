@@ -10,11 +10,11 @@ public class ExerciseNumberType {
 
         int evenNumbers = 0;
         int oddNumbers = 0;
-        int ceros = 0;
+        int zeros = 0;
 
         for (int number : numberArray){
             if (number == 0) {
-                ceros++;
+                zeros++;
             } else if (number % 2 == 0){
                 evenNumbers++;
             } else {
@@ -24,6 +24,6 @@ public class ExerciseNumberType {
 
         System.out.println("Total de numeros pares: " + evenNumbers);
         System.out.println("Total de numeros nones:" + oddNumbers);
-        System.out.println("Total de ceros: " + ceros);
+        System.out.println("Total de ceros: " + zeros);
     }
 }
