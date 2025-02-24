@@ -6,7 +6,6 @@ import java.util.Scanner;
  * Fecha: 04-Feb-2025
  */
 
-@SuppressWarnings("unused")
 public class EstructuraDeDatos {
     public static void main(String[] args) {
         // RandomElementGame objRandomElementGame = new RandomElementGame();
@@ -77,7 +76,20 @@ public class EstructuraDeDatos {
        // ExerciseNumberType objExerciseNumberType = new ExerciseNumberType();
         // objExerciseNumberType.getNumberType();
 
-      
+        //Scanner objScannerFinalGrade = new Scanner(System.in);
+        //System.out.println("Examen Parcial: ");
+        //double partialTestGrade = objScannerFinalGrade.nextDouble();
         
+        //System.out.println("Tareas: ");
+        //double assignmentsGrade = objScannerFinalGrade.nextDouble();
+
+        //GradeCalculationPartial objFinalGrade = new GradeCalculationPartial();
+        //double getFinalGrade = objFinalGrade.getFinalGrade(partialTestGrade,assignmentsGrade);
+
+        //System.out.println("Calificacion Final: " + getFinalGrade);
+        //objScannerFinalGrade.close();
+
+        SalesWithDiscount objSalesWithDiscount = new SalesWithDiscount();
+        objSalesWithDiscount.totalWithDiscount();
     }
 }
