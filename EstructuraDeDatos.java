@@ -74,7 +74,10 @@ public class EstructuraDeDatos {
         //MultidimentionalArrays objMultidimentionalArray = new MultidimentionalArrays();
         //objMultidimentionalArray.printBidimensionalArray();
 
-        ExerciseNumberType objExerciseNumberType = new ExerciseNumberType();
-        objExerciseNumberType.getNumberType();
+       // ExerciseNumberType objExerciseNumberType = new ExerciseNumberType();
+        // objExerciseNumberType.getNumberType();
+
+      
+        
     }
 }
