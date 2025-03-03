@@ -19,7 +19,7 @@ public class InsertionSort2 {
         }
         
         public static void main(String args[]) {
-            int peorCaso[] = {5, 4, 3, 2, 1};
+            int peorCaso[] = {5, 4, 3, 2, 1,8,10,20,30,15};
             int mejorCaso[] = {1, 2, 3, 4, 5};
             
             System.out.println("Peor Caso:");
