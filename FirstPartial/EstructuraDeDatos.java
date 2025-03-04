@@ -89,7 +89,7 @@ public class EstructuraDeDatos {
         //System.out.println("Calificacion Final: " + getFinalGrade);
         //objScannerFinalGrade.close();
 
-        SalesWithDiscount objSalesWithDiscount = new SalesWithDiscount();
-        objSalesWithDiscount.totalWithDiscount();
+        //SalesWithDiscount objSalesWithDiscount = new SalesWithDiscount();
+        //objSalesWithDiscount.totalWithDiscount();
     }
 }
