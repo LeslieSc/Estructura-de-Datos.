@@ -1,20 +1,20 @@
 package SecondPartial;
 
 public class InsertionSort {
-    
-    int[] array = {8,6,1,2,5};
-
-    public void sort() {
-        int length = array.length; 
-        for (int i = 1; i < length; i++) {
-            int key = array[i];
-            int j = i - 1;
-
-            while (j >= 0 && array[j] > key) {
-                array[j + 1] = array[j];
-                j--;
+        public static int insertionSort(int arr[]) {
+            int n = arr.length;
+            int operations = 0;
+            for (int i = 1; i < n; i++) {
+                int key = arr[i];
+                int j = i - 1;
+                while (j >= 0 && arr[j] > key) {
+                    arr[j + 1] = arr[j];
+                    j = j - 1;
+                    operations++;
+                }
+                arr[j + 1] = key;
+                operations++;
             }
-            array[j+1] = key; 
+            return operations;
         }
     }
-}
