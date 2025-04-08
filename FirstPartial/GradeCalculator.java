@@ -14,5 +14,7 @@ class GradeCalculator {
 
         double finalGrade = (examGrade * 0.7) + (assignmentsGrade * 0.3);
         System.out.println("Calificación final: " + finalGrade);
+
+
     }
 }
