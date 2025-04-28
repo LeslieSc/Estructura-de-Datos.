@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package FirstPartial;
 
 /**
  * Autor: Leslie Anahi Sosa Corral
