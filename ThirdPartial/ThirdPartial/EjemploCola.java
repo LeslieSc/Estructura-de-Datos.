@@ -10,6 +10,7 @@ public class EjemploCola {
         cola.add("Cliente 1");
         cola.add("Cliente 2");
         cola.add("Cliente 3");
+        cola.add("Cliente 4");
 
         // PEEK: Consultando quién está al frente de la cola sin eliminarlo
         System.out.println("Cliente al frente: " + cola.peek());
