@@ -36,7 +36,7 @@ public class SecondPartialMain {
         System.out.println("Comparaciones: " + bubbleComparisonsBest);
         /* */
 
-        LinearSearch objLinearSearch = new LinearSearch();
-        System.out.println();
+        /* LinearSearch objLinearSearch = new LinearSearch();
+        System.out.println();*/
     }
 }

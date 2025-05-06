@@ -1,27 +1,32 @@
 package ThirdPartial;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class EjemploCola {
-    public static void main(String[] args) {
-        Queue<String> cola = new LinkedList<>();
+    private Queue<String> cola = new LinkedList<>();
 
-        // ENQUEUE: Agregando elementos a la cola
-        cola.add("Cliente 1");
-        cola.add("Cliente 2");
-        cola.add("Cliente 3");
-        cola.add("Cliente 4");
+    // Método para agregar un cliente a la cola (ENQUEUE)
+    public void add(String cliente) {
+        cola.add(cliente);
+        System.out.println("Cliente agregado: " + cliente);
+    }
 
-        // PEEK: Consultando quién está al frente de la cola sin eliminarlo
-        System.out.println("Cliente al frente: " + cola.peek());
+    // Método para consultar el cliente al frente (PEEK)
+    public void peek() {
+        if (!cola.isEmpty()) {
+            System.out.println("Cliente al frente: " + cola.peek());
+        } else {
+            System.out.println("La cola está vacía.");
+        }
+    }
 
-        // DEQUEUE: Atendiendo (eliminando) al primer cliente en la cola
-        System.out.println("Atendiendo a: " + cola.poll());
-
-        // DEQUEUE: Atendiendo (eliminando) al siguiente cliente en la cola
-        System.out.println("Atendiendo a: " + cola.poll());
-
-        // PEEK: Consultando quién está ahora al frente
-        System.out.println("Cliente al frente ahora: " + cola.peek());
+    // Método para atender (eliminar) al cliente al frente (DEQUEUE)
+    public void poll() {
+        if (!cola.isEmpty()) {
+            System.out.println("Atendiendo a: " + cola.poll());
+        } else {
+            System.out.println("No hay clientes para atender.");
+        }
     }
 }
